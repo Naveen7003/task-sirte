@@ -1,0 +1,236 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "General Sans";
+box-sizing: border-box;
+}
+
+html,body{
+width: 100%;
+height: 100%;
+background-color: #000;
+}
+#circle{
+    width: 10px;
+    height: 10px;
+    position:absolute;
+    z-index: 9999;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.1s;
+}
+#main{
+    width: 100%;
+}
+#hero{
+    height: 100vh;
+    width:100%;
+    color:#fff;
+    position:relative;
+}
+#nav{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 40px;
+}
+#nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#heading{
+    margin-top: 90px;
+}
+.bounding{
+    width: fit-content; 
+    overflow: hidden;
+}
+.bounding .boundingh1{
+    transform: translateY(100%);
+}
+#heading h1{
+    font-size: 4vw;
+    font-size: 9vw;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 900;
+    opacity: .6;
+    margin-left: 30px;
+}
+#heading #sec{
+    margin-left: 230px;
+}
+.blocktext{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-transform: uppercase;
+}
+.blocktext #txt{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+   /* margin-left: 30vw; */
+   font-size: 15px;
+   margin-top: 5px;
+}
+#mhead{
+    margin-top: 100px;
+    padding-right: 30px;
+}
+#mhead #txt1{
+    /* display: flex;
+    flex-direction: column;
+    align-items: end; */
+    margin-left: 80vw;
+    margin-top: .5vw;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    /* text-align: right; */
+}
+#mhead #txt2{
+    margin-top: .5vw;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    margin-left: 80vw;
+}
+#lhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:absolute;
+    bottom:3%;
+    width: 100%;
+    padding:0 2vw;
+}
+#lhead a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#iconset{
+    display: flex;
+    gap:5px;
+}
+#lhead .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding:10px 12px;
+    background-color: rgb(53, 52, 52);
+
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+    padding-top: 200px;
+    padding-right: 2vw;
+    color:white;
+}
+.elem{
+    width: 95%;
+    padding:2vw 1vw;
+    border-top: 1px solid #888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.elem h1{
+    text-transform: uppercase;
+    opacity: .7;
+    font-size: 6vw;
+}
+.elemlast{
+    text-transform: uppercase;
+    /* opacity: .7; */
+    /* font-size: 6vw; */
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    height: 140%;
+    opacity:0;
+    z-index: 999;
+    position:absolute;
+}
+#page3{
+    width: 100%;
+    padding:10vw 10vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    color:white;
+    gap:50px;
+    padding-left:40vw;
+}
+#page3 img{
+    width: 200px;
+}
+#textabout{
+    width: 25rem;
+}
+#textabout  h5{
+    text-transform: uppercase;
+    opacity:0.5;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+#textabout a{
+    padding:12px 22px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color:white;
+    font-size: 12px;
+    text-decoration:  none;
+}
+#subscribe{
+    color:#fff;
+    padding:40px 30px;
+    padding-bottom: 7vw;
+}
+#subscribe h5{
+    text-transform: uppercase;
+    opacity:0.6;
+}
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer{
+    color:#fff;
+    font-size: 16px;
+    display: flex;
+    padding:2vw 3vw;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+
+}
+#footerl{
+    display: flex;
+    gap:20px;
+}
+#footerl h5{
+    font-size: 16px;
+}
+#footerr{
+    display: flex;
+    gap:30px;
+}
+#footer a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color:#fff;
+}
